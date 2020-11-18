@@ -1,0 +1,74 @@
+ body{
+    font-family: 'Xanh Mono', monospace;
+    background-color: #adf1ff;
+ }
+
+ .heading{
+     background-color:#fed9ff;
+     color:#8f84fa;
+ }
+
+ .heading img{
+     width:100px;
+ }
+
+ .main{
+     border:5px pink solid;
+     background-color:#e1befa;
+     padding:10px;
+     margin-top: 50px;
+     box-shadow: 10px 10px 10px rgb(236, 189, 232);
+    }
+ 
+
+ .main label{
+     background-color: rgb(233, 88, 233);
+     color: rgb(236, 189, 232);
+     width:300px;
+     box-shadow: 10px 10px 10px violet;
+     padding:10px;
+    }
+ 
+
+ #camera,#snapshot{
+     width: 300;
+     height:300;
+     box-shadow: 10px 10px 10p violet;
+     border: 2px dotted #d09ff5;
+    }
+ 
+    button{
+        padding:10px;
+        background-color :#f9bdfc;
+        color:#bdf7fc;
+        font-size: 20px;
+    }
+
+    .output_div{
+        margin-bottom: 50px;
+
+    }
+.output_div h4{
+    background:rgb(236, 189, 232);
+    border-radius:10px;
+    padding:5px;
+    box-shadow: 10px 10px 10px:#f5ebfc;
+ 
+}
+
+.output_div img{
+    width:100px;
+    height:100px;
+}
+
+.footer{
+    bottom:0;
+    position:fixed;
+    width:100%;
+    text-align:center;
+    background:white;
+    line-height:1.3;
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
